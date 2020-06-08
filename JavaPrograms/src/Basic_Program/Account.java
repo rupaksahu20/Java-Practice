@@ -2,6 +2,7 @@ package Basic_Program;
 
 public class Account 
 {
+	 
 	private int accno;
 	private String name;
 	private float balance;
