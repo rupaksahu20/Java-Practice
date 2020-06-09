@@ -9,7 +9,7 @@ public class Singleton {
 	// 2. write a static method that has return type of object of this singleton
 	// class(Lazy Initialization)
 	//Difference between normal class and singleton class:
-	//for normal class we use constructor  whereas for singleton class we use getInstance() method for instantiation.
+	//for normal class we use constructor  whereas for singleton class we use getInstance() method for instantiation
 	
 
 	private static Singleton singleton_instance = null;
