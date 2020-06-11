@@ -31,6 +31,7 @@ public class Singleton {
 		Singleton z = Singleton.getInstance();
 
 		x.str = (x.str).toUpperCase();
+		
 
 		System.out.println(x.str);
 		System.out.println(y.str);

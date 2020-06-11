@@ -2,7 +2,7 @@ package Basic_Program;
 
 public class WrapperClassConcept {
 	
-	//This is all about Wrapper class and adat conversion
+	//This is all about Wrapper class and data conversion
 
 	public static void main(String[] args) {
 		
