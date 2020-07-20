@@ -35,6 +35,9 @@ public class FinallyConcept {
 	}
 
 	public static void division() {
+		
+		
+		
 		int i = 10;
 		try {
 			System.out.println("inside try block");
@@ -47,6 +50,9 @@ public class FinallyConcept {
 		finally {
 			System.out.println("execute this code even after any exception");
 		}
+		
 	}
+	
+	
 
 }

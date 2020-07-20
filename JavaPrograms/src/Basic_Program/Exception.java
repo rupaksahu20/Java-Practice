@@ -9,6 +9,8 @@ public class Exception
        try
        {
     	   i=i/Integer.parseInt(args[0]);
+    	   
+    	   
        }
        catch(ArithmeticException e)
        {
@@ -21,5 +23,6 @@ public class Exception
        }
        System.out.println("Value of i is: "+i); 
 	}
+
 
 }
