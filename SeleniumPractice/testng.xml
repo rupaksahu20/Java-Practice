@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="FB Test Suite" verbose="5">
+
+<listeners>
+
+<listener class-name="com.qa.extentReportListner.ExtentReport"/>
+
+</listeners>
+
   <test name="FB Logo and Title Test" thread-count="5">
     <classes>
       <class name="Java.SeleniumPractice.TestNGVerbose_Concept"/>

@@ -1,37 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="FB Test Suite" duration-ms="21176" started-at="2020-07-14T06:41:44Z" finished-at="2020-07-14T06:42:05Z">
+  <suite name="Default suite" duration-ms="106" started-at="2020-08-06T11:48:50Z" finished-at="2020-08-06T11:48:50Z">
     <groups>
     </groups>
-    <test name="FB Logo and Title Test" duration-ms="21176" started-at="2020-07-14T06:41:44Z" finished-at="2020-07-14T06:42:05Z">
-      <class name="Java.SeleniumPractice.TestNGVerbose_Concept">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Java.SeleniumPractice.TestNGVerbose_Concept@5442a311]" name="setup" is-config="true" duration-ms="11434" started-at="2020-07-14T06:41:44Z" finished-at="2020-07-14T06:41:56Z">
+    <test name="Default test" duration-ms="106" started-at="2020-08-06T11:48:50Z" finished-at="2020-08-06T11:48:50Z">
+      <class name="Java.SeleniumPractice.TestNGBasics">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Java.SeleniumPractice.TestNGBasics@146ba0ac]" name="setup" is-config="true" duration-ms="24" started-at="2020-08-06T11:48:50Z" finished-at="2020-08-06T11:48:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="logoTest()[pri:-3, instance:Java.SeleniumPractice.TestNGVerbose_Concept@5442a311]" name="logoTest" duration-ms="112" started-at="2020-07-14T06:41:56Z" finished-at="2020-07-14T06:41:56Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:Java.SeleniumPractice.TestNGBasics@146ba0ac]" name="launchBrowser" is-config="true" duration-ms="1" started-at="2020-08-06T11:48:50Z" finished-at="2020-08-06T11:48:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Java.SeleniumPractice.TestNGVerbose_Concept@5442a311]" name="tearDown" is-config="true" duration-ms="804" started-at="2020-07-14T06:41:56Z" finished-at="2020-07-14T06:41:57Z">
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Java.SeleniumPractice.TestNGBasics@146ba0ac]" name="login" is-config="true" duration-ms="1" started-at="2020-08-06T11:48:50Z" finished-at="2020-08-06T11:48:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:Java.SeleniumPractice.TestNGVerbose_Concept@5442a311]" name="setup" is-config="true" duration-ms="7921" started-at="2020-07-14T06:41:57Z" finished-at="2020-07-14T06:42:04Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="googleLogoTest()[pri:0, instance:Java.SeleniumPractice.TestNGBasics@146ba0ac]" name="googleLogoTest" duration-ms="14" started-at="2020-08-06T11:48:50Z" finished-at="2020-08-06T11:48:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="fbTitleTest()[pri:-2, instance:Java.SeleniumPractice.TestNGVerbose_Concept@5442a311]" name="fbTitleTest" duration-ms="47" started-at="2020-07-14T06:42:04Z" finished-at="2020-07-14T06:42:04Z">
+        </test-method> <!-- googleLogoTest -->
+        <test-method status="PASS" signature="enterURL()[pri:0, instance:Java.SeleniumPractice.TestNGBasics@146ba0ac]" name="enterURL" is-config="true" duration-ms="0" started-at="2020-08-06T11:48:50Z" finished-at="2020-08-06T11:48:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fbTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Java.SeleniumPractice.TestNGVerbose_Concept@5442a311]" name="tearDown" is-config="true" duration-ms="812" started-at="2020-07-14T06:42:04Z" finished-at="2020-07-14T06:42:05Z">
+        </test-method> <!-- enterURL -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:Java.SeleniumPractice.TestNGBasics@146ba0ac]" name="logout" is-config="true" duration-ms="2" started-at="2020-08-06T11:48:50Z" finished-at="2020-08-06T11:48:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Java.SeleniumPractice.TestNGVerbose_Concept -->
-    </test> <!-- FB Logo and Title Test -->
-  </suite> <!-- FB Test Suite -->
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="enterURL()[pri:0, instance:Java.SeleniumPractice.TestNGBasics@146ba0ac]" name="enterURL" is-config="true" duration-ms="3" started-at="2020-08-06T11:48:50Z" finished-at="2020-08-06T11:48:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterURL -->
+        <test-method status="PASS" signature="googleTitleTest()[pri:0, instance:Java.SeleniumPractice.TestNGBasics@146ba0ac]" name="googleTitleTest" duration-ms="6" started-at="2020-08-06T11:48:50Z" finished-at="2020-08-06T11:48:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTitleTest -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:Java.SeleniumPractice.TestNGBasics@146ba0ac]" name="logout" is-config="true" duration-ms="2" started-at="2020-08-06T11:48:50Z" finished-at="2020-08-06T11:48:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="enterURL()[pri:0, instance:Java.SeleniumPractice.TestNGBasics@146ba0ac]" name="enterURL" is-config="true" duration-ms="1" started-at="2020-08-06T11:48:50Z" finished-at="2020-08-06T11:48:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterURL -->
+        <test-method status="PASS" signature="searchTest()[pri:0, instance:Java.SeleniumPractice.TestNGBasics@146ba0ac]" name="searchTest" duration-ms="4" started-at="2020-08-06T11:48:50Z" finished-at="2020-08-06T11:48:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:Java.SeleniumPractice.TestNGBasics@146ba0ac]" name="logout" is-config="true" duration-ms="1" started-at="2020-08-06T11:48:50Z" finished-at="2020-08-06T11:48:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Java.SeleniumPractice.TestNGBasics@146ba0ac]" name="closeBrowser" is-config="true" duration-ms="6" started-at="2020-08-06T11:48:50Z" finished-at="2020-08-06T11:48:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="deleteAllCookies()[pri:0, instance:Java.SeleniumPractice.TestNGBasics@146ba0ac]" name="deleteAllCookies" is-config="true" duration-ms="2" started-at="2020-08-06T11:48:50Z" finished-at="2020-08-06T11:48:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllCookies -->
+      </class> <!-- Java.SeleniumPractice.TestNGBasics -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

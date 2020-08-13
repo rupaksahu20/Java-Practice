@@ -3,6 +3,7 @@
  */
 package Java.SeleniumPractice;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -13,10 +14,14 @@ import org.openqa.selenium.support.PageFactory;
  *
  */
 public class FacebookAccountCreatePage {
+	
 
 	public FacebookAccountCreatePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
+	
+	@FindBy(xpath="//a[contains(text(),'Create New Account')]")
+	public WebElement lnk_CreateNewAcnt;
 
 	@FindBy(xpath = "//input[@name='firstname']")
 	public WebElement txtbx_FirstName;
@@ -33,6 +38,17 @@ public class FacebookAccountCreatePage {
 	@FindBy(xpath = "(//input[@name='sex'])[2]")
 	public WebElement rbtn_male;
 
+	
+	public void clickonCreateNewAcnt() {
+		lnk_CreateNewAcnt.click();
+	}
+	
+	public void switchAlert(WebDriver driver) {
+		Alert alt=driver.switchTo().alert();
+	    System.out.println(alt.getText());
+	    alt.accept();
+		
+	}
 	
 	
 	public void enterFirstName(String fName) {
