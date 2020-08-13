@@ -14,7 +14,7 @@ public class FactorialNumber {
 	 */
 	public static void main(String[] args) {
 		
-		
+		getFact(5);
 
 	}
 
